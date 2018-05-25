@@ -570,7 +570,7 @@ li.phone::before {
 .footer .phone {
    position: relative;
 
-   padding-left: 340px;
+   padding-left: 300px;
 
    color: #ababab;
 }
@@ -578,7 +578,7 @@ li.phone::before {
 .footer .phone::before {
    position: absolute;
    top: 5px;
-   left: 320px;
+   left: 280px;
 
    width: 15px;
    height: 15px;
