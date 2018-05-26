@@ -297,18 +297,6 @@ li.phone::before {
    background-image: url(../img/items/item-6.svg);
 }
 
-.item-7 {
-   background-image: url(../img/items/item-7.svg);
-}
-
-.item-8 {
-   background-image: url(../img/items/item-8.svg);
-}
-
-.item-9 {
-   background-image: url(../img/items/item-9.svg);
-}
-
 .item-1:hover {
    background-image: url(../img/items/item-1-hv.svg);
 }
