@@ -11,7 +11,7 @@ font-family: 'Jura', sans-serif;
 }
 
 .container {
-   max-width: 1200px;
+   width: 1200px;
    margin: 0 auto;
 }
 
@@ -187,7 +187,9 @@ li.phone::before {
 
    text-align: center;
 
-   background-image: url(../img/bg-head.jpg);
+   background-image: url(../img/bg-head.jpg),
+          url(../img/bg-head-m.jpg),
+          url(../img/bg-head-s.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-color: #85b698;
@@ -241,22 +243,6 @@ li.phone::before {
    justify-content: space-between;
 }
 
-.services__item h3 {
-   font-size: 22px;
-   font-weight: 700;
-   line-height: 25px;
-
-   padding: 0 25px 25px;
-
-   -webkit-transition-duration: 0.4s;
-           transition-duration: 0.4s;
-   -webkit-transition-property: -webkit-transform;
-           transition-property: -webkit-transform;
-           transition-property: all;
-           transition-property: all;
-   text-transform: uppercase;
-}
-
 .services__item {
    width: 340px;
    padding-top: 105px;
@@ -275,6 +261,22 @@ li.phone::before {
    background-position: 130px 0;
    -webkit-background-size: 70px;
            background-size: 70px;
+}
+
+.services__item h3 {
+   font-size: 22px;
+   font-weight: 700;
+   line-height: 25px;
+
+   padding: 0 25px 25px;
+
+   -webkit-transition-duration: 0.4s;
+           transition-duration: 0.4s;
+   -webkit-transition-property: -webkit-transform;
+           transition-property: -webkit-transform;
+           transition-property: all;
+           transition-property: all;
+   text-transform: uppercase;
 }
 
 .services__item:hover h3 {
@@ -385,9 +387,7 @@ li.phone::before {
 
 .aboutus .substrate {
    padding: 50px 0;
-}
 
-.aboutus .substrate {
    margin-left: 500px;
 }
 
@@ -416,10 +416,11 @@ li.phone::before {
 
    border: 2px solid #edebeb;
    outline: none;
+   font-size: 17px;
+   width: 591px;
 }
 
 .contact input[type="submit"] {
-   font-size: 17px;
 
    width: 600px;
    height: 45px;
@@ -432,9 +433,6 @@ li.phone::before {
 }
 
 .contact .text {
-   font-size: 17px;
-
-   width: 591px;
    height: 40px;
    padding-left: 5px;
 
@@ -442,9 +440,7 @@ li.phone::before {
 }
 
 .contact textarea {
-   font-size: 17px;
 
-   width: 591px;
    height: 200px;
    padding-top: 5px;
    padding-left: 5px;
@@ -538,6 +534,7 @@ li.phone::before {
 .footer .container {
    padding-top: 35px;
 
+  /*border-right: 2px solid #4d4d4d;*/
    
    -webkit-box-pack: start;
 
@@ -551,11 +548,12 @@ li.phone::before {
 }
 
 .footer__logo {
+   position: relative;
    font-size: 30px;
 
    padding-left: 47px;
 
-   background-position: 0 -3;
+   background-position: 0 -3px;
    -webkit-background-size: 40px;
            background-size: 40px;
 }
@@ -573,20 +571,21 @@ li.phone::before {
 
 .footer li a:hover {
    border-bottom-color: #ababab;
-}
+  }
 
 .footer .phone {
    position: relative;
 
-   padding-left: 300px;
-
+   padding-left: 290px;
+  
+  padding-right: 0;
    color: #ababab;
-}
+  }
 
 .footer .phone::before {
    position: absolute;
    top: 5px;
-   left: 280px;
+   left: 270px;
 
    width: 15px;
    height: 15px;

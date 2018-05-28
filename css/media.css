@@ -1,0 +1,581 @@
+/* 
+@media (min-width:320px)  
+@media (min-width:481px)
+@media (min-width:641px)
+*/
+@media screen and (min-width: 1025px) and (max-width: 1299px) {
+   .container {
+      width: 1000px;
+   }
+
+   .nav li {
+      padding: 0 30px ;
+   }
+
+   li.phone::before {
+      left: 12px;
+   }
+
+   .head__promo .substrate {
+      padding: 180px 0;
+   }
+
+   .head__promo h1 {
+      font-size: 40px;
+      padding: 0 150px 30px;
+   }
+
+   .description {
+      font-size: 17px;
+   }
+
+   .btn {
+      padding: 15px 60px; 
+   }
+
+   .services ul {
+      justify-content: space-around;
+   }
+
+   .portfolio__fotos {
+      justify-content: space-around;
+   }
+
+   .portfolio__fotos img {
+      width: 455px;
+      padding-bottom: 55px;
+   }
+
+   .portfolio__fotos  li:last-child img{
+      width: 700px;
+   }
+
+   .aboutus .substrate {
+      margin-left: 370px;
+   }
+
+   .footer__logo a {
+      padding-right: 20px;
+   }
+
+}
+
+@media screen and (min-width: 961px) and (max-width:1025px) {
+   .container {
+      width: 920px;
+   }
+
+   .title {
+      font-size: 25px;
+   }
+
+   .nav li {
+      padding: 0 25px ;
+   }
+
+   li.phone::before {
+      left: 8px;
+   }
+
+   .head__promo .substrate {
+      padding: 150px 0;
+   }
+
+   .head__promo h1 {
+      font-size: 38px;
+      padding: 0 120px 30px;
+   }
+
+   .description {
+      font-size: 17px;
+   }
+
+   .btn {
+      padding: 12px 50px; 
+   }
+
+   .services ul {
+      justify-content: space-around;
+   }
+
+   .services__item {
+      -webkit-background-size: 50px;
+      background-size: 50px;
+      background-position: 150px 0;
+      padding-top: 70px;
+   }
+
+   .services__item h3 {
+      font-size: 20px;
+   }
+
+   .portfolio__fotos {
+      justify-content: space-around;
+   }
+
+   .portfolio__fotos img {
+      width: 400px;
+      padding-bottom: 55px;
+   }
+
+   .portfolio__fotos  li:last-child img{
+      display: none;
+   }
+
+   .aboutus .substrate {
+      margin-left: 350px;
+   }
+   
+   .aboutus p {
+      font-size: 16px;
+
+      padding: 0 50px;
+   }
+
+   .footer__logo a {
+      padding-right: 20px;
+   }
+
+   .footer .phone {
+      padding-left: 250px;
+   }
+
+  .footer .phone::before {
+      left: 233px;
+   }
+}
+
+@media screen and (min-width: 641px) and (max-width:961px) {
+   .container {
+      width: 600px;
+   }
+
+   .title {
+      font-size: 24px;
+   }
+
+   .description {
+      font-size: 16px;
+   }
+
+   .btn {
+      padding: 15px 50px; 
+      font-size: 15px;
+   }
+
+   .nav ul {
+      display: none;
+   }
+
+   li.phone::before {
+      left: 8px;
+   }
+
+   .head__promo .substrate,
+   .services,
+   .potrfolio,
+   .aboutus,
+   .contact
+    {
+      padding: 50px 0;
+   }
+
+   .head__promo h1 {
+      font-size: 37px;
+      padding: 0 100px 20px;
+   }
+
+   .head__promo p {
+      padding-bottom: 50px;
+   }
+
+   .services ul {
+      justify-content: space-around;
+   }
+
+   .services__item {
+      -webkit-background-size: 50px;
+      background-size: 50px;
+      background-position: 275px 0;
+      padding-top: 70px;
+      padding-bottom: 40px;
+      width: 550px;
+   }
+
+   .services__item h3 {
+      font-size: 20px;
+   }
+
+   .portfolio__fotos {
+      justify-content: space-around;
+   }
+
+   .portfolio__fotos img {
+      width: 400px;
+      padding-bottom: 55px;
+   }
+
+   .aboutus .substrate {
+      margin-left: 0px;
+   }
+   
+   .aboutus p {
+      font-size: 16px;
+
+      padding: 0 50px;
+   }
+
+   .footer ul {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+   .footer li {
+      padding-bottom: 15px;
+      padding-left: 30px;
+   }
+
+   .footer__logo a {
+      padding-right: 0;
+   }
+
+   .footer .phone {
+      padding-left: 0px;
+      padding-right: 30px;
+
+   }
+
+  .footer .phone::before {
+      left: -18px;
+   }
+
+   .footer .copyright {
+      margin-top: -10px;
+   }
+}
+
+
+@media screen and (min-width: 481px) and (max-width:641px) {
+   .container {
+      width: 450px;
+   }
+
+   .title {
+      font-size: 22px;
+   }
+
+   .description {
+      font-size: 15px;
+   }
+
+   .btn {
+      padding: 15px 50px; 
+      font-size: 14px;
+   }
+
+   .nav ul {
+      display: none;
+   }
+
+   li.phone::before {
+      left: 8px;
+   }
+
+   .head__promo .substrate,
+   .services,
+   .potrfolio,
+   .aboutus,
+   .contact
+    {
+      padding: 40px 0;
+   }
+
+   .head__promo h1 {
+      font-size: 30px;
+      padding: 0 100px 10px;
+   }
+
+   .head__promo p {
+      padding-bottom: 30px;
+   }
+
+   .services ul {
+      justify-content: space-around;
+   }
+
+   .services__item {
+      -webkit-background-size: 50px;
+      background-size: 50px;
+      background-position: 175px 0;
+      padding-top: 70px;
+      padding-bottom: 40px;
+      width: 400px;
+   }
+
+   .services__item h3 {
+      font-size: 20px;
+   }
+
+   .portfolio__fotos {
+      justify-content: space-around;
+   }
+
+   .portfolio__fotos img {
+      width: 400px;
+      padding-bottom: 35px;
+   }
+
+   .aboutus .substrate {
+      margin-left: 0px;
+      padding: 30px 0;
+   }
+   
+   .aboutus p {
+      font-size: 16px;
+
+      padding: 0 25px;
+   }
+
+   .contact input,
+   .contact textarea {
+      font-size: 15px;
+
+      width: 391px;
+   }
+
+   .contact input[type="submit"] {
+      width: 400px;
+   }
+
+   .socio {
+      padding: 30px 0;
+   }
+
+   .footer ul {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+   .footer li {
+      padding-bottom: 15px;
+      padding-left: 30px;
+   }
+
+   .footer__logo a {
+      padding-right: 0;
+   }
+
+   .footer .phone {
+      padding-left: 0px;
+      padding-right: 30px;
+
+   }
+
+  .footer .phone::before {
+      left: -18px;
+   }
+
+   .footer .copyright {
+      margin-top: -10px;
+   }
+}
+
+@media screen and (max-width:481px) {
+   .container {
+      width: 300px;
+   }
+
+   .title {
+      font-size: 18px;
+   }
+
+   .description {
+      font-size: 14px;
+   }
+
+   .btn {
+      padding: 15px 50px; 
+      font-size: 13px;
+   }
+
+   .nav ul {
+      display: none;
+   }
+/*
+   li.phone::before {
+      left: 8px;
+   }*/
+
+   .head__promo .substrate,
+   .services,
+   .potrfolio,
+   .aboutus,
+   .contact
+    {
+      padding: 35px 0;
+   }
+
+   .head .logo {
+      font-size: 28px;
+      -webkit-background-size: 37px;
+      background-size: 37px;
+      background-position: 15px ;
+   }
+
+   .nav {
+      height: 100px;
+   }
+
+   .nav .container {
+      padding-top: 30px;
+   }
+
+   .head__promo {
+      padding: 30px 0;
+   }
+
+   .head__promo h1 {
+      font-size: 28px;
+      padding: 0 30px 10px;
+   }
+
+   .head__promo p {
+      padding-bottom: 30px;
+   }
+
+   .services ul {
+      justify-content: space-around;
+   }
+
+   .services__item {
+      -webkit-background-size: 50px;
+      background-size: 50px;
+      background-position: 50% 0;
+      padding-top: 70px;
+      padding-bottom: 40px;
+      width: 290px;
+   }
+
+   .services__item h3 {
+      font-size: 18px;
+   }
+
+   .portfolio__fotos {
+      justify-content: space-around;
+   }
+
+   .portfolio__fotos img {
+      width: 300px;
+      padding-bottom: 35px;
+   }
+
+   .portfolio__fotos  li:last-child img{
+      display: none;
+   }
+
+   .aboutus {
+      padding: 30px 0;
+      background-position: left;
+   }
+
+   .aboutus .substrate {
+      margin-left: 0px;
+      padding: 30px 0;
+   }
+   
+   .aboutus p {
+      font-size: 15px;
+
+      padding: 0 15px;
+   }
+
+   .contact input,
+   .contact textarea {
+      font-size: 15px;
+
+      width: 285px;
+   }
+
+   .contact input[type="submit"] {
+      width: 292px;
+   }
+
+   .contact textarea {
+      height: 150px;
+   }
+
+   .socio {
+      padding: 25px 0;
+   }
+
+   .footer li {
+      display: none;
+   }
+
+  .footer .container  {
+      justify-content: center;
+  }
+  
+  .footer__logo {
+      
+      -webkit-transition-duration: 0.5s;
+           transition-duration: 0.5s;
+   -webkit-transition-property: -webkit-transform;
+           transition-property: -webkit-transform;
+           transition-property:         transform;
+           transition-property: all;
+  }
+
+  .footer__logo::before {
+      position: absolute;
+      content: "Наверх";
+      left: 45px;
+      top: 30px;
+      color: #ebebeb;
+      opacity: 0;      
+      -webkit-transition-duration: 0.5s;
+           transition-duration: 0.5s;
+   -webkit-transition-property: -webkit-transform;
+           transition-property: -webkit-transform;
+           transition-property:         transform;
+           transition-property: all;
+  }
+
+  .footer__logo:hover::before {
+      top: 0;
+      opacity: 1;
+  }  
+
+  .footer__logo:hover a {
+   opacity: 0;
+  }
+
+   .footer .phone {
+      padding-left: 0px;
+      padding-right: 30px;
+
+   }
+
+   .footer .copyright {
+      margin-top: -5px;
+      font-size: 14px;
+   }
+}
