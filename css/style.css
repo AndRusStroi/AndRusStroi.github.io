@@ -258,7 +258,7 @@ li.phone::before {
            transition-property: all;
 
    background-repeat: no-repeat;
-   background-position: 130px 0;
+   background-position: 50% 0;
    -webkit-background-size: 70px;
            background-size: 70px;
 }
