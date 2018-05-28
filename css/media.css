@@ -251,8 +251,8 @@
   .footer__logo:active::before {
       top: 0;
       opacity: 1;
+color: #55acee;
   }  
-
 
   .footer__logo:active a {
    opacity: 0;
@@ -411,13 +411,14 @@
    opacity: 0;
   } 
 
-  .footer__logo:hover a {
+  .footer__logo:active a {
    opacity: 0;
   }
 
   .footer__logo:active::before {
       top: 0;
-      opacity: 1;
+      opacity: 1; 
+      color: #55acee;
   }  
 
 
@@ -630,14 +631,15 @@
   .footer__logo:hover a {
    opacity: 0;
   }  
-  
-  .footer__logo:hover a {
+
+  .footer__logo:active a {
    opacity: 0;
   }
 
   .footer__logo:active::before {
       top: 0;
       opacity: 1;
+      color: #55acee;
   }  
 
 
