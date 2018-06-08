@@ -344,33 +344,60 @@ li.phone::before {
 }
 
 .potrfolio {
-   padding: 100px 0 50px 0;
+   padding: 100px 0 120px 0;
 
    text-align: center;
 
    border-bottom: 1px solid #e7e7e7;
+
+
 }
 
-.portfolio__fotos {
+#thumbs {
+   overflow: hidden; 
+
+   padding-top: 10px;
    display: -webkit-flex;
-   display:    -moz-flex;
-   display:     -ms-flex;
-   display:      -o-flex;
-   display:         flex;
-
-   list-style: none;
-
-   -webkit-flex-wrap: wrap;
-      -moz-flex-wrap: wrap;
-       -ms-flex-wrap: wrap;
-        -o-flex-wrap: wrap;
-           flex-wrap: wrap;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
    justify-content: space-between;
+   -ms-align-items: flex-start;
+   align-items: flex-start;
 }
 
-.portfolio__fotos img {
-   width: 390px;
-   padding-bottom: 55px;
+#largeImage {
+  height: 700px;
+}
+
+#thumbs img,
+#largeImage {
+   padding: 4px;
+
+   cursor: pointer;
+
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   background-color: white;
+}
+#thumbs img {
+   float: center;
+    width: 130px;
+}
+#description {
+   position: absolute;
+   bottom: 0;
+  border-radius: 20px  20px 0 0;
+   width: 100%;
+   margin: 5px;
+   padding: 10px 0;
+    font-size: 15px;
+   color: white;
+   background: rgba(0, 0, 0, 0.5);
+}
+#panel {
+   position: relative;
+    
 }
 
 .aboutus {

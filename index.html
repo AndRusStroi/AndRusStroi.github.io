@@ -12,6 +12,7 @@
 	<link rel="canonical" href="https://andrusstroi.github.io/">
 	<link href="https://fonts.googleapis.com/css?family=Jura:300|Open+Sans:400,600,700|Poiret+One" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="img/favicon/57x57.png"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 	<title>Загородное строительство и ремонт в Санкт-Петербурге и Ленинградской области</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
 				<nav>
 					<ul>
 						<li><a href="#services">Наши услуги</a></li>
-						<li><a href="#portfolio">Галерея</a></li>
+						<li><a href="#gallery">Галерея</a></li>
 						<li><a href="#aboutus">О нас</a></li>
 						<li><a href="#contact">Контакты</a></li>
 						<li class="phone">943-63-78</li>
@@ -41,75 +42,57 @@
 		</div>
 	</header>
 	<main>
-		<div class="services container" id="services">
-			<h2 class="title">НАШИ УСЛУГИ</h2>
-			<p class="description">услуги которые мы предоставляем</p>
-			<ul>
-				<li class="services__item item-1">
-					<h3>ПОДГОТОВКА СТРОИТЕЛЬСТВА</h3>
-					<p>Не знаете как начать строительство?! Положитесь на нас! Подготовка строительства включает в себя, замеры, составление предварительного проекта, составление предварительной сметы, согласование сроков начала и конца работ с клиентом.</p>
-				</li>
-				<li class="services__item item-2">
-					<h3>НАРУЖНИЕ КОММУНИКАЦИИ</h3>
-					<p>Ушли те времена, когда, чтобы почитать книгу вечером необходимо разжигать лучину. Мы предлагаем вам подведение к зданию электрики, водопровода, канализации, водоотведения. Это то, что сделает вашу жизнь комфортнее.</p>
-				</li>
-				<li class="services__item item-3">
-					<h3>Возведение фундаментов</h3>
-					<p>Замучились доводить работу строителей до ума. Предлагаем вам. Возведение декорированных ленточных фундаментов по специальной технологии, которые не требуют последующей обработки или приведения в приличный вид.</p>
-				</li>
-				<li class="services__item item-4">
-					<h3>инженерно-технические системы</h3>
-					<p>Размещение, монтаж, установка сантехнического оборудования, электротехнического оборудования, отопление, проведение вентиляции.</p>
-				</li>
-				<li class="services__item item-5">
-					<h3>ОТДЕЛОЧНЫЕ РАБОТЫ</h3>
-					<p>Наведение красоты снаружи и внутри помещений. Внешняя отделка - покраска, сайдинг и тд. Внутренняя отделка помещений - поклейка обоев, покраска стен, устройство полов, натяжка/устройство/покраска потолков, замена сантехнического/электротехнического оборудования.</p>
-				</li>
-				<li class="services__item item-6">
-					<h3>БЛАГОУСТРОЙСТВО ТЕРРИТОРИИ</h3>
-					<p>Ландшафтные работы по индивидуальным проектам включают в себя: строительство дорожек, изготовление клумб, арок, беседок, повышение/понижения уровня земли.</p>
-				</li>
-			</ul>
-		</div>
-		<div class="potrfolio container" id="portfolio">
-			<h1 class="title">Галерея работ</h1>
-			<p class="description">внутренняя отделка помещений</p>
-			<ul class="portfolio__fotos">
-				<li><a href="#"><img src="img/portfolio/decoration/foto1.jpg" alt="Внутренняя отделка помещений"></a></li>
-				<li><a href="#"><img src="img/portfolio/decoration/foto2.jpg" alt="Внутренняя отделка помещений"></a></li>
-				<li><a href="#"><img src="img/portfolio/decoration/foto3.jpg" alt="Внутренняя отделка помещений"></a></li>
-				
-			</ul>
-			<p class="description">Постройка домов</p>
-			<ul class="portfolio__fotos">
-				<li><a href="#"><img src="img/portfolio/house/foto1.jpg" alt="Постройка домов"></a></li>
-				<li><a href="#"><img src="img/portfolio/house/foto2.jpg" alt="Постройка домов"></a></li>
-				<li><a href="#"><img src="img/portfolio/house/foto3.jpg" alt="Постройка домов"></a></li>
-				
-			</ul>
-			<p class="description">Фундамент</p>
-			<ul class="portfolio__fotos">
-				<li><a href="#"><img src="img/portfolio/foundation/foto1.jpg" alt="Фундамент"></a></li>
-				<li><a href="#"><img src="img/portfolio/foundation/foto2.jpg" alt="Фундамент"></a></li>
-				<li><a href="#"><img src="img/portfolio/foundation/foto3.jpg" alt="Фундамент"></a></li>
-				
-			</ul>
-			<p class="description">Внешняя отделка</p>
-			<ul class="portfolio__fotos">
-				<li><a href="#"><img src="img/portfolio/exterior/foto1.jpg" alt="Внешняя отделка"></a></li>
-				<li><a href="#"><img src="img/portfolio/exterior/foto2.jpg" alt="Внешняя отделка"></a></li>
-				<li><a href="#"><img src="img/portfolio/exterior/foto3.jpg" alt="Внешняя отделка"></a></li>
-				
-			</ul>
-			<p class="description">Заборы</p>
-			<ul class="portfolio__fotos">
-				<li><a href="#"><img src="img/portfolio/fence/foto1.jpg" alt="Заборы"></a></li>
-				<li><a href="#"><img src="img/portfolio/fence/foto2.jpg" alt="Заборы"></a></li>
-				<li><a href="#">
-					<img src="img/portfolio/fence/foto3.jpg" alt="Заборы" ><div id="aboutus"></div></a></li>
-					
+		<div class="services" id="services">
+			<div class="container">
+				<h2 class="title">НАШИ УСЛУГИ</h2>
+				<p class="description">услуги которые мы предоставляем</p>
+				<ul>
+					<li class="services__item item-1">
+						<h3>ПОДГОТОВКА СТРОИТЕЛЬСТВА</h3>
+						<p>Не знаете как начать строительство?! Положитесь на нас! Подготовка строительства включает в себя, замеры, составление предварительного проекта, составление предварительной сметы, согласование сроков начала и конца работ с клиентом.</p>
+					</li>
+					<li class="services__item item-2">
+						<h3>НАРУЖНИЕ КОММУНИКАЦИИ</h3>
+						<p>Ушли те времена, когда, чтобы почитать книгу вечером необходимо разжигать лучину. Мы предлагаем вам подведение к зданию электрики, водопровода, канализации, водоотведения. Это то, что сделает вашу жизнь комфортнее.</p>
+					</li>
+					<li class="services__item item-3">
+						<h3>Возведение фундаментов</h3>
+						<p>Замучились доводить работу строителей до ума. Предлагаем вам. Возведение декорированных ленточных фундаментов по специальной технологии, которые не требуют последующей обработки или приведения в приличный вид.</p>
+					</li>
+					<li class="services__item item-4">
+						<h3>инженерно-технические системы</h3>
+						<p>Размещение, монтаж, установка сантехнического оборудования, электротехнического оборудования, отопление, проведение вентиляции.</p>
+					</li>
+					<li class="services__item item-5">
+						<h3>ОТДЕЛОЧНЫЕ РАБОТЫ</h3>
+						<p>Наведение красоты снаружи и внутри помещений. Внешняя отделка - покраска, сайдинг и тд. Внутренняя отделка помещений - поклейка обоев, покраска стен, устройство полов, натяжка/устройство/покраска потолков, замена сантехнического/электротехнического оборудования.</p>
+					</li>
+					<li class="services__item item-6">
+						<h3>БЛАГОУСТРОЙСТВО ТЕРРИТОРИИ</h3>
+						<p>Ландшафтные работы по индивидуальным проектам включают в себя: строительство дорожек, изготовление клумб, арок, беседок, повышение/понижения уровня земли.</p>
+					</li>
 				</ul>
 			</div>
+		</div>
+		<div class="potrfolio container" id="gallery">
+			<h1 class="title">Галерея работ</h1>
+			<p class="description">фотографии наших работ</p>
+			<div id="panel">
+				<img id="largeImage" src="img/portfolio/foto_01_large.jpg" />
+				<div id="description" class="description">Отделка ванной комнаты плиткой</div>
+			</div>
+			<div id="thumbs">
+				<img src="img/portfolio/foto_01_thumb.jpg" alt="Отделка ванной комнаты плиткой" />
+				<img src="img/portfolio/foto_02_thumb.jpg" alt="Напольная плитка" />
+				<img src="img/portfolio/foto_03_thumb.jpg" alt="Оформление подоконника" />
+				<img src="img/portfolio/foto_04_thumb.jpg" alt="Оформление подоконника" />
+				<img src="img/portfolio/foto_05_thumb.jpg" alt="Напольная плитка" />
+				<img src="img/portfolio/foto_06_thumb.jpg" alt="Утепление загородного дома" />
+				<img src="img/portfolio/foto_07_thumb.jpg" alt="Укладка плитки и оформление ванной комнаты" />
+				<img src="img/portfolio/foto_08_thumb.jpg" alt="Прокладка труб, установка счетчиков" />
+			</div>
+			<!-- ссылка-кнопка на портфолио  -->
+		</div>
 		<div class="aboutus" >
 			<div class="container">
 				<div class="substrate">
@@ -161,7 +144,7 @@
 					<ul>
 						<li><a href="#head">Главная</a></li>
 						<li><a href="#services">Наши услуги</a></li>
-						<li><a href="#portfolio">Галерея</a></li>
+						<li><a href="#gallery">Галерея</a></li>
 						<li><a href="#aboutus">О нас</a></li>
 						<li class="phone"><a href="tel:+79219436378"  target="_blank">943-63-78</a></li>
 
@@ -171,5 +154,11 @@
 					<p class="copyright"> создание сайтов: sansara.roo.roo@gmail.com©</p>
 		</div>
 	</footer>
+	<script>
+		$('#thumbs').delegate('img','click', function(){
+			$('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+			$('#description').html($(this).attr('alt'));
+		});
+	</script>
 </body>
 </html>
