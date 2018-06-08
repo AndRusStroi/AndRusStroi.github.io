@@ -1,9 +1,3 @@
-/* 
-@media (min-width:320px)  
-@media (min-width:481px)
-@media (min-width:641px)
-*/
-
 @media screen and (min-width: 1025px) and (max-width: 1299px) {
    .container {
       width: 1000px;
@@ -38,17 +32,20 @@
       justify-content: space-around;
    }
 
-   .portfolio__fotos {
-      justify-content: space-around;
+   .slider {
+      padding-bottom: 150px;
    }
 
-   .portfolio__fotos img {
-      width: 455px;
-      padding-bottom: 55px;
+   .slider>img { 
+      height: 580px;
    }
 
-   .portfolio__fotos  li:last-child img{
-      width: 700px;
+   .slider label {
+      margin-top: 630px;
+   }
+
+   .slider label img {
+      width: 100px;
    }
 
    .aboutus .substrate {
@@ -109,18 +106,23 @@
       font-size: 20px;
    }
 
-   .portfolio__fotos {
-      justify-content: space-around;
+   
+   .slider {
+      padding-bottom: 100px;
    }
 
-   .portfolio__fotos img {
-      width: 400px;
-      padding-bottom: 55px;
+   .slider>img { 
+      height: 520px;
    }
 
-   .portfolio__fotos  li:last-child img{
-      display: none;
+   .slider label {
+      margin-top: 550px;
    }
+
+   .slider label img {
+      width: 100px;
+   }
+
 
    .aboutus .substrate {
       margin-left: 350px;
@@ -133,7 +135,7 @@
    }
 
    .footer__logo a {
-      padding-right: 20px;
+      padding-right: 10px;
    }
 
    .footer .phone {
@@ -141,7 +143,7 @@
    }
 
   .footer .phone::before {
-      left: 233px;
+      left: 230px;
    }
 }
 
@@ -163,7 +165,7 @@
       font-size: 15px;
    }
 
-   .nav ul {
+   .nav ul li:nth-last-child(1n+2) {
       display: none;
    }
 
@@ -205,13 +207,23 @@
       font-size: 20px;
    }
 
-   .portfolio__fotos {
-      justify-content: space-around;
+   
+   .slider {
+      padding-bottom: 0px;
+      height: 500px;
+      width: 600px;
    }
 
-   .portfolio__fotos img {
-      width: 400px;
-      padding-bottom: 55px;
+   .slider>img { 
+      height: 320px;
+   }
+
+   .slider label {
+      margin-top: 350px;
+   }
+
+   .slider label img {
+      width: 70px;
    }
 
    .aboutus .substrate {
@@ -227,10 +239,10 @@
      .footer__logo::before {
       position: absolute;
       content: "Наверх";
-      left: 45px;
-      top: 10px;
+      left: 50px;
+      top: 0;
       color: #ebebeb;
-      opacity: 0;      
+      opacity: 1;      
       -webkit-transition-duration: 0.5s;
            transition-duration: 0.5s;
    -webkit-transition-property: -webkit-transform;
@@ -240,21 +252,10 @@
   }
 
   .footer__logo:hover::before {
-      top: 0;
-      opacity: 1;
+      color: #55acee;
   }  
 
-  .footer__logo:hover a {
-   opacity: 0;
-  }
-
-  .footer__logo:active::before {
-      top: 0;
-      opacity: 1;
-color: #55acee;
-  }  
-
-  .footer__logo:active a {
+  .footer__logo a {
    opacity: 0;
   }
 
@@ -310,7 +311,8 @@ color: #55acee;
       font-size: 14px;
    }
 
-   .nav ul {
+
+   .nav ul li:nth-last-child(1n+2) {
       display: none;
    }
 
@@ -352,13 +354,30 @@ color: #55acee;
       font-size: 20px;
    }
 
-   .portfolio__fotos {
-      justify-content: space-around;
+
+   .slider {
+      padding-bottom: 0px;
+      height: 450px;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      width: 300px;
    }
 
-   .portfolio__fotos img {
-      width: 400px;
-      padding-bottom: 35px;
+   .slider>img { 
+      height: 280px;
+
+   }
+
+   .slider label {
+      margin-top: 0px;
+   }
+
+   .slider label img {
+      width: 70px;
    }
 
    .aboutus .substrate {
@@ -390,10 +409,10 @@ color: #55acee;
      .footer__logo::before {
       position: absolute;
       content: "Наверх";
-      left: 45px;
-      top: 10px;
+      left: 50px;
+      top: 0;
       color: #ebebeb;
-      opacity: 0;      
+      opacity: 1;      
       -webkit-transition-duration: 0.5s;
            transition-duration: 0.5s;
    -webkit-transition-property: -webkit-transform;
@@ -403,23 +422,12 @@ color: #55acee;
   }
 
   .footer__logo:hover::before {
-      top: 0;
-      opacity: 1;
-  }  
-
-  .footer__logo:hover a {
-   opacity: 0;
-  } 
-
-  .footer__logo:active a {
-   opacity: 0;
-  }
-
-  .footer__logo:active::before {
-      top: 0;
-      opacity: 1; 
       color: #55acee;
   }  
+
+  .footer__logo a {
+   opacity: 0;
+  }
 
 
    .footer ul {
@@ -477,13 +485,11 @@ color: #55acee;
       font-size: 13px;
    }
 
-   .nav ul {
+
+   .nav ul li:nth-last-child(1n+2) {
       display: none;
    }
-/*
-   li.phone::before {
-      left: 8px;
-   }*/
+
 
    .head__promo .substrate,
    .services,
@@ -538,18 +544,32 @@ color: #55acee;
       font-size: 18px;
    }
 
-   .portfolio__fotos {
-      justify-content: space-around;
-   }
 
-   .portfolio__fotos img {
+   .slider {
+      padding-bottom: 0px;
+      height: 400px;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      flex-wrap: wrap;
+      align-content: flex-end;
       width: 300px;
-      padding-bottom: 35px;
    }
 
-   .portfolio__fotos  li:last-child img{
-      display: none;
+   .slider>img { 
+      height: 220px;
+
    }
+
+   .slider label {
+      margin-top: 0px;
+   }
+
+   .slider label img {
+      width: 70px;
+   }
+
 
    .aboutus {
       padding: 30px 0;
@@ -611,10 +631,10 @@ color: #55acee;
   .footer__logo::before {
       position: absolute;
       content: "Наверх";
-      left: 45px;
-      top: 10px;
+      left: 50px;
+      top: 0;
       color: #ebebeb;
-      opacity: 0;      
+      opacity: 1;      
       -webkit-transition-duration: 0.5s;
            transition-duration: 0.5s;
    -webkit-transition-property: -webkit-transform;
@@ -624,23 +644,12 @@ color: #55acee;
   }
 
   .footer__logo:hover::before {
-      top: 0;
-      opacity: 1;
-  }  
-
-  .footer__logo:hover a {
-   opacity: 0;
-  }  
-
-  .footer__logo:active a {
-   opacity: 0;
-  }
-
-  .footer__logo:active::before {
-      top: 0;
-      opacity: 1;
       color: #55acee;
   }  
+
+  .footer__logo a {
+   opacity: 0;
+  }
 
 
    .footer .copyright {
