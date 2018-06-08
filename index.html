@@ -12,7 +12,7 @@
 	<link rel="canonical" href="https://andrusstroi.github.io/">
 	<link href="https://fonts.googleapis.com/css?family=Jura:300|Open+Sans:400,600,700|Poiret+One" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="img/favicon/57x57.png"/>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="http://thecodeplayer.com/uploads/js/prefixfree.js" type="text/javascript"></script>
 	<title>Загородное строительство и ремонт в Санкт-Петербурге и Ленинградской области</title>
 </head>
 <body>
@@ -77,19 +77,55 @@
 		<div class="potrfolio container" id="gallery">
 			<h1 class="title">Галерея работ</h1>
 			<p class="description">фотографии наших работ</p>
-			<div id="panel">
-				<img id="largeImage" src="img/portfolio/foto_01_large.jpg" />
-				<div id="description" class="description">Отделка ванной комнаты плиткой</div>
-			</div>
-			<div id="thumbs">
-				<img src="img/portfolio/foto_01_thumb.jpg" alt="Отделка ванной комнаты плиткой" />
-				<img src="img/portfolio/foto_02_thumb.jpg" alt="Напольная плитка" />
-				<img src="img/portfolio/foto_03_thumb.jpg" alt="Оформление подоконника" />
-				<img src="img/portfolio/foto_04_thumb.jpg" alt="Оформление подоконника" />
-				<img src="img/portfolio/foto_05_thumb.jpg" alt="Напольная плитка" />
-				<img src="img/portfolio/foto_06_thumb.jpg" alt="Утепление загородного дома" />
-				<img src="img/portfolio/foto_07_thumb.jpg" alt="Укладка плитки и оформление ванной комнаты" />
-				<img src="img/portfolio/foto_08_thumb.jpg" alt="Прокладка труб, установка счетчиков" />
+			<div class="slider">
+				<input type="radio" name="slide_switch" id="id1" checked="checked"/>
+				<label for="id1">
+					<img src="img/portfolio/foto_01_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_01_large.jpg"/>
+
+				<!--Lets show the second image by default on page load-->
+				<input type="radio" name="slide_switch" id="id2" />
+				<label for="id2">
+					<img src="img/portfolio/foto_02_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_02_large.jpg"/>
+
+				<input type="radio" name="slide_switch" id="id3"/>
+				<label for="id3">
+					<img src="img/portfolio/foto_03_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_03_large.jpg"/>
+
+				<input type="radio" name="slide_switch" id="id4"/>
+				<label for="id4">
+					<img src="img/portfolio/foto_04_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_04_large.jpg"/>
+
+				<input type="radio" name="slide_switch" id="id5"/>
+				<label for="id5">
+					<img src="img/portfolio/foto_05_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_05_large.jpg"/>
+
+				<input type="radio" name="slide_switch" id="id6"/>
+				<label for="id6">
+					<img src="img/portfolio/foto_06_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_06_large.jpg"/>
+
+				<input type="radio" name="slide_switch" id="id7"/>
+				<label for="id7">
+					<img src="img/portfolio/foto_07_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_07_large.jpg"/>
+
+				<input type="radio" name="slide_switch" id="id8"/>
+				<label for="id8">
+					<img src="img/portfolio/foto_08_thumb.jpg" width="125"/>
+				</label>
+				<img src="img/portfolio/foto_08_large.jpg"/>
 			</div>
 			<!-- ссылка-кнопка на портфолио  -->
 		</div>
@@ -154,11 +190,5 @@
 					<p class="copyright"> создание сайтов: sansara.roo.roo@gmail.com©</p>
 		</div>
 	</footer>
-	<script>
-		$('#thumbs').delegate('img','click', function(){
-			$('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
-			$('#description').html($(this).attr('alt'));
-		});
-	</script>
 </body>
 </html>
