@@ -206,11 +206,10 @@ li.phone::before {
 }
 
 .head__promo h1 {
-   font-family: "Poiret One", cursive;
+   font-family: 'Poiret One', 'Roboto', sans-serif;
    font-size: 50px;
 
    padding: 0 180px 30px;
-
    text-transform: uppercase;
 }
 
