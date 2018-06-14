@@ -9,11 +9,6 @@ font-family: "Poiret One", cursive;
 font-family: 'Jura', sans-serif; 
 */
 
-/* для IE*/
-@import "http://fonts.fontstorage.com/import/poiret.css";
-@import "http://fonts.fontstorage.com/import/jura.css";
-@import "http://fonts.fontstorage.com/import/opensans.css";
-
 * {
    margin: 0;
    padding: 0;
