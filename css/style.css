@@ -5,6 +5,10 @@ font-family: 'Open Sans', sans-serif;
 попробовать для промо
 font-family: 'Jura', sans-serif; 
 */
+@import "http://fonts.fontstorage.com/import/poiret.css";
+@import "http://fonts.fontstorage.com/import/jura.css";
+@import "http://fonts.fontstorage.com/import/opensans.css";
+
 * {
    margin: 0;
    padding: 0;
@@ -352,25 +356,34 @@ li.phone::before {
 }
 
 .slider {
-  height: 620px;
   position: relative;
-  display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  -ms-align-items: flex-end;
-  align-items: flex-start;
-  padding-bottom: 250px;
-  width: 800px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+          -webkit-flex-wrap: wrap;
+          -moz-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          -o-flex-wrap: wrap;
+          flex-wrap: wrap;
   margin: 0 auto;
+  padding-bottom: 70px;
+
 
 }
 
 .slider>img {
   position: absolute; 
   top: 0;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   height: 700px;
 }
@@ -387,33 +400,36 @@ li.phone::before {
   
   float: left;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   
   /*Default style = low opacity*/
   opacity: 0.4;
-}
-
-.slider label img{
-  display: inline-block;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
 }
 
 /*Time to add the click effects*/
 .slider input[name='slide_switch']:checked+label {
   box-shadow: 0 0px 15px 5px rgba(0, 0, 0, 0.5);
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 /*Clicking any thumbnail now should change its opacity(style)*/
 /*Time to work on the main images*/
 .slider input[name='slide_switch'] ~ img {
   opacity: 0;
-  transform: scale(1.1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*That hides all main images at a 110% size
 On click the images will be displayed at normal size to complete the effect
 */
 .slider input[name='slide_switch']:checked+label+img {
   opacity: 1;
-  transform: scale(1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 /*Clicking on any thumbnail now should activate the image related to it*/
 
