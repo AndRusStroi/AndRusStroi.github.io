@@ -3,8 +3,13 @@
 font-family: 'Open Sans', sans-serif;
 
 попробовать для промо
+font-family: "Poiret One", cursive;
+
+логотип
 font-family: 'Jura', sans-serif; 
 */
+
+/* для IE*/
 @import "http://fonts.fontstorage.com/import/poiret.css";
 @import "http://fonts.fontstorage.com/import/jura.css";
 @import "http://fonts.fontstorage.com/import/opensans.css";
